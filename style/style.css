@@ -5,8 +5,12 @@ html {
 body {
   margin: 0;
   font-family: "Work Sans", sans-serif;
+  background-color:black;
 }
-
+p{
+  font-size:.9em;
+  color:white;
+}
 .container {
   height: 100vh;
   width: 100vh;
@@ -39,6 +43,7 @@ body {
 
 .one {
   font-size: 4.5rem;
+  color:white;
 }
 
 .one > img {
@@ -47,16 +52,18 @@ body {
   max-width: 100%;
   height: auto;
 }
-
 .two {
-  font-size: 1.2rem;
-  font-weight: lighter;
+   font-size: 4.5rem;
+   color:white;
 }
-
 .three {
-  font-size: 3rem;
+   font-size: 4.5rem;
+   color:white;
 }
-
+.three1 {
+   font-size: 4.5rem;
+   color:white;
+}
 .four .text-box {
   width: 600px;
   margin: 0 auto;
@@ -65,7 +72,9 @@ body {
   padding: 10px;
   position: relative;
 }
-
+.hbd-chatbox{
+  color:white;
+}
 .text-box p {
   margin: 0;
   text-align: left;
@@ -79,7 +88,7 @@ body {
   position: absolute;
   right: 5px;
   bottom: 5px;
-  color: #fff;
+  color: white;
   background-color: rgb(21, 161, 237);
   padding: 5px 8px;
   border-radius: 3px;
@@ -296,4 +305,22 @@ body {
     font-size: 1.5rem;
     font-weight: lighter;
   }
+}
+.asal {
+  margin: 0;
+  background: #020202;
+  cursor: crosshair;
+}
+.asal canvas{display:block}
+.asal h1 {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-family: "Source Sans Pro";
+  font-size: 5em;
+  font-weight: 900;
+  -webkit-user-select: none;
+  user-select: none;
 }
