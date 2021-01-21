@@ -140,7 +140,7 @@ const animationTimeline = () => {
         z: 10,
         opacity: 0
       },
-      "+=.6.5"
+      "+=0.5"
     )
     .to(
       ".idea-5 span",
@@ -149,7 +149,7 @@ const animationTimeline = () => {
         rotation: 90,
         x: 8
       },
-      "+=.6.4"
+      "+=0.4"
     )
     .to(
       ".idea-5",
