@@ -1,4 +1,4 @@
-// Animation Timeline
+
 const animationTimeline = () => {
   // Spit chars that needs to be animated individually
   const textBoxChars = document.getElementsByClassName("hbd-chatbox")[0];
@@ -36,10 +36,6 @@ const animationTimeline = () => {
       opacity: 0,
       y: 10
     })
-    .from(".two", 0.4, {
-      opacity: 0,
-      y: 10
-    })
     .to(
       ".one",
       0.7,
@@ -47,8 +43,12 @@ const animationTimeline = () => {
         opacity: 0,
         y: 10
       },
-      "+=2.5"
+      "+=.6"
     )
+    .from(".two", 0.7, {
+      opacity: 0,
+      y: 10
+    })
     .to(
       ".two",
       0.7,
@@ -56,7 +56,7 @@ const animationTimeline = () => {
         opacity: 0,
         y: 10
       },
-      "-=1"
+      "+=.6"
     )
     .from(".three", 0.7, {
       opacity: 0,
@@ -70,7 +70,21 @@ const animationTimeline = () => {
         opacity: 0,
         y: 10
       },
-      "+=2"
+      "+=.6"
+    )
+    .from(".three1", 0.7, {
+      opacity: 0,
+      y: 10
+      // scale: 0.7
+    })
+    .to(
+      ".three1",
+      0.7,
+      {
+        opacity: 0,
+        y: 10
+      },
+      "+=.6"
     )
     .from(".four", 0.7, {
       scale: 0.2,
@@ -99,7 +113,7 @@ const animationTimeline = () => {
         opacity: 0,
         y: -150
       },
-      "+=0.7"
+      "+=1"
     )
     .from(".idea-1", 0.7, ideaTextTrans)
     .to(".idea-1", 0.7, ideaTextTransLeave, "+=1.5")
@@ -126,7 +140,7 @@ const animationTimeline = () => {
         z: 10,
         opacity: 0
       },
-      "+=0.5"
+      "+=.6.5"
     )
     .to(
       ".idea-5 span",
@@ -135,7 +149,7 @@ const animationTimeline = () => {
         rotation: 90,
         x: 8
       },
-      "+=0.4"
+      "+=.6.4"
     )
     .to(
       ".idea-5",
@@ -145,6 +159,636 @@ const animationTimeline = () => {
         opacity: 0
       },
       "+=2"
+    )
+    .from(".a", 0.7, {
+      opacity: 0,
+      y: 10
+      // scale: 0.7
+    })
+    .to(
+      ".a",
+      0.7,
+      {
+        opacity: 0,
+        y: 10
+      },
+      "+=.6"
+    )
+    .from(".b", 0.7, {
+      opacity: 0,
+      y: 10
+      // scale: 0.7
+    })
+    .to(
+      ".b",
+      0.7,
+      {
+        opacity: 0,
+        y: 10
+      },
+      "+=.6"
+    )
+    .from(".c", 0.7, {
+      opacity: 0,
+      y: 10
+      // scale: 0.7
+    })
+    .to(
+      ".c",
+      0.7,
+      {
+        opacity: 0,
+        y: 10
+      },
+      "+=.6"
+    )
+    .from(".d", 0.7, {
+      opacity: 0,
+      y: 10
+      // scale: 0.7
+    })
+    .to(
+      ".d",
+      0.7,
+      {
+        opacity: 0,
+        y: 10
+      },
+      "+=.6"
+    )
+    .from(".e", 0.7, {
+      opacity: 0,
+      y: 10
+      // scale: 0.7
+    })
+    .to(
+      ".e",
+      0.7,
+      {
+        opacity: 0,
+        y: 10
+      },
+      "+=.6"
+    )
+    .from(".f", 0.7, {
+      opacity: 0,
+      y: 10
+      // scale: 0.7
+    })
+    .to(
+      ".f",
+      0.7,
+      {
+        opacity: 0,
+        y: 10
+      },
+      "+=.6"
+    )
+    .from(".g", 0.7, {
+      opacity: 0,
+      y: 10
+      // scale: 0.7
+    })
+    .to(
+      ".g",
+      0.7,
+      {
+        opacity: 0,
+        y: 10
+      },
+      "+=.6"
+    )
+    .from(".h", 0.7, {
+      opacity: 0,
+      y: 10
+      // scale: 0.7
+    })
+    .to(
+      ".h",
+      0.7,
+      {
+        opacity: 0,
+        y: 10
+      },
+      "+=.6"
+    )
+    .from(".i", 0.7, {
+      opacity: 0,
+      y: 10
+      // scale: 0.7
+    })
+    .to(
+      ".i",
+      0.7,
+      {
+        opacity: 0,
+        y: 10
+      },
+      "+=.6"
+    )
+    .from(".j", 0.7, {
+      opacity: 0,
+      y: 10
+      // scale: 0.7
+    })
+    .to(
+      ".j",
+      0.7,
+      {
+        opacity: 0,
+        y: 10
+      },
+      "+=.6"
+    )
+    .from(".k", 0.7, {
+      opacity: 0,
+      y: 10
+      // scale: 0.7
+    })
+    .to(
+      ".k",
+      0.7,
+      {
+        opacity: 0,
+        y: 10
+      },
+      "+=.6"
+    )
+    .from(".l", 0.7, {
+      opacity: 0,
+      y: 10
+      // scale: 0.7
+    })
+    .to(
+      ".l",
+      0.7,
+      {
+        opacity: 0,
+        y: 10
+      },
+      "+=.6"
+    )
+    .from(".m", 0.7, {
+      opacity: 0,
+      y: 10
+      // scale: 0.7
+    })
+    .to(
+      ".m",
+      0.7,
+      {
+        opacity: 0,
+        y: 10
+      },
+      "+=.6"
+    )
+    .from(".n", 0.7, {
+      opacity: 0,
+      y: 10
+      // scale: 0.7
+    })
+    .to(
+      ".n",
+      0.7,
+      {
+        opacity: 0,
+        y: 10
+      },
+      "+=.6"
+    )
+    .from(".o", 0.7, {
+      opacity: 0,
+      y: 10
+      // scale: 0.7
+    })
+    .to(
+      ".o",
+      0.7,
+      {
+        opacity: 0,
+        y: 10
+      },
+      "+=.6"
+    )
+    .from(".p", 0.7, {
+      opacity: 0,
+      y: 10
+      // scale: 0.7
+    })
+    .to(
+      ".p",
+      0.7,
+      {
+        opacity: 0,
+        y: 10
+      },
+      "+=.6"
+    )
+    .from(".q", 0.7, {
+      opacity: 0,
+      y: 10
+      // scale: 0.7
+    })
+    .to(
+      ".q",
+      0.7,
+      {
+        opacity: 0,
+        y: 10
+      },
+      "+=.6"
+    )
+    .from(".r", 0.7, {
+      opacity: 0,
+      y: 10
+      // scale: 0.7
+    })
+    .to(
+      ".r",
+      0.7,
+      {
+        opacity: 0,
+        y: 10
+      },
+      "+=.6"
+    )
+    .from(".s", 0.7, {
+      opacity: 0,
+      y: 10
+      // scale: 0.7
+    })
+    .to(
+      ".s",
+      0.7,
+      {
+        opacity: 0,
+        y: 10
+      },
+      "+=.6"
+    )
+    .from(".t", 0.7, {
+      opacity: 0,
+      y: 10
+      // scale: 0.7
+    })
+    .to(
+      ".t",
+      0.7,
+      {
+        opacity: 0,
+        y: 10
+      },
+      "+=.6"
+    )
+    .from(".u", 0.7, {
+      opacity: 0,
+      y: 10
+      // scale: 0.7
+    })
+    .to(
+      ".u",
+      0.7,
+      {
+        opacity: 0,
+        y: 10
+      },
+      "+=.6"
+    )
+    .from(".v", 0.7, {
+      opacity: 0,
+      y: 10
+      // scale: 0.7
+    })
+    .to(
+      ".v",
+      0.7,
+      {
+        opacity: 0,
+        y: 10
+      },
+      "+=.6"
+    )
+    .from(".w", 0.7, {
+      opacity: 0,
+      y: 10
+      // scale: 0.7
+    })
+    .to(
+      ".w",
+      0.7,
+      {
+        opacity: 0,
+        y: 10
+      },
+      "+=.6"
+    )
+    .from(".x", 0.7, {
+      opacity: 0,
+      y: 10
+      // scale: 0.7
+    })
+    .to(
+      ".x",
+      0.7,
+      {
+        opacity: 0,
+        y: 10
+      },
+      "+=.6"
+    )
+    .from(".y", 0.7, {
+      opacity: 0,
+      y: 10
+      // scale: 0.7
+    })
+    .to(
+      ".y",
+      0.7,
+      {
+        opacity: 0,
+        y: 10
+      },
+      "+=.6"
+    )
+    .from(".z", 0.7, {
+      opacity: 0,
+      y: 10
+      // scale: 0.7
+    })
+    .to(
+      ".z",
+      0.7,
+      {
+        opacity: 0,
+        y: 10
+      },
+      "+=.6"
+    )
+    .from(".a1", 0.7, {
+      opacity: 0,
+      y: 10
+      // scale: 0.7
+    })
+    .to(
+      ".a1",
+      0.7,
+      {
+        opacity: 0,
+        y: 10
+      },
+      "+=.6"
+    )
+    .from(".b1", 0.7, {
+      opacity: 0,
+      y: 10
+      // scale: 0.7
+    })
+    .to(
+      ".b1",
+      0.7,
+      {
+        opacity: 0,
+        y: 10
+      },
+      "+=.6"
+    )
+    .from(".c1", 0.7, {
+      opacity: 0,
+      y: 10
+      // scale: 0.7
+    })
+    .to(
+      ".c1",
+      0.7,
+      {
+        opacity: 0,
+        y: 10
+      },
+      "+=.6"
+    )
+    .from(".d1", 0.7, {
+      opacity: 0,
+      y: 10
+      // scale: 0.7
+    })
+    .to(
+      ".d1",
+      0.7,
+      {
+        opacity: 0,
+        y: 10
+      },
+      "+=.6"
+    )
+    .from(".e1", 0.7, {
+      opacity: 0,
+      y: 10
+      // scale: 0.7
+    })
+    .to(
+      ".e1",
+      0.7,
+      {
+        opacity: 0,
+        y: 10
+      },
+      "+=.6"
+    )
+    .from(".f1", 0.7, {
+      opacity: 0,
+      y: 10
+      // scale: 0.7
+    })
+    .to(
+      ".f1",
+      0.7,
+      {
+        opacity: 0,
+        y: 10
+      },
+      "+=.6"
+    )
+    .from(".g1", 0.7, {
+      opacity: 0,
+      y: 10
+      // scale: 0.7
+    })
+    .to(
+      ".g1",
+      0.7,
+      {
+        opacity: 0,
+        y: 10
+      },
+      "+=.6"
+    )
+    .from(".h1", 0.7, {
+      opacity: 0,
+      y: 10
+      // scale: 0.7
+    })
+    .to(
+      ".h1",
+      0.7,
+      {
+        opacity: 0,
+        y: 10
+      },
+      "+=.6"
+    )
+    .from(".i1", 0.7, {
+      opacity: 0,
+      y: 10
+      // scale: 0.7
+    })
+    .to(
+      ".i1",
+      0.7,
+      {
+        opacity: 0,
+        y: 10
+      },
+      "+=.6"
+    )
+    .from(".j1", 0.7, {
+      opacity: 0,
+      y: 10
+      // scale: 0.7
+    })
+    .to(
+      ".j1",
+      0.7,
+      {
+        opacity: 0,
+        y: 10
+      },
+      "+=.6"
+    )
+    .from(".k1", 0.7, {
+      opacity: 0,
+      y: 10
+      // scale: 0.7
+    })
+    .to(
+      ".k1",
+      0.7,
+      {
+        opacity: 0,
+        y: 10
+      },
+      "+=.6"
+    )
+    .from(".l1", 0.7, {
+      opacity: 0,
+      y: 10
+      // scale: 0.7
+    })
+    .to(
+      ".l1",
+      0.7,
+      {
+        opacity: 0,
+        y: 10
+      },
+      "+=.6"
+    )
+    .from(".m1", 0.7, {
+      opacity: 0,
+      y: 10
+      // scale: 0.7
+    })
+    .to(
+      ".m1",
+      0.7,
+      {
+        opacity: 0,
+        y: 10
+      },
+      "+=.6"
+    )
+    .from(".n1", 0.7, {
+      opacity: 0,
+      y: 10
+      // scale: 0.7
+    })
+    .to(
+      ".n1",
+      0.7,
+      {
+        opacity: 0,
+        y: 10
+      },
+      "+=.6"
+    )
+    .from(".o1", 0.7, {
+      opacity: 0,
+      y: 10
+      // scale: 0.7
+    })
+    .to(
+      ".o1",
+      0.7,
+      {
+        opacity: 0,
+        y: 10
+      },
+      "+=.6"
+    )
+    .from(".p1", 0.7, {
+      opacity: 0,
+      y: 10
+      // scale: 0.7
+    })
+    .to(
+      ".p1",
+      0.7,
+      {
+        opacity: 0,
+        y: 10
+      },
+      "+=.6"
+    )
+    .from(".q1", 0.7, {
+      opacity: 0,
+      y: 10
+      // scale: 0.7
+    })
+    .to(
+      ".q1",
+      0.7,
+      {
+        opacity: 0,
+        y: 10
+      },
+      "+=.6"
+    )
+    .from(".r1", 0.7, {
+      opacity: 0,
+      y: 10
+      // scale: 0.7
+    })
+    .to(
+      ".r1",
+      0.7,
+      {
+        opacity: 0,
+        y: 10
+      },
+      "+=.6"
+    )
+    .from(".s1", 0.7, {
+      opacity: 0,
+      y: 10
+      // scale: 0.7
+    })
+    .to(
+      ".s1",
+      0.7,
+      {
+        opacity: 0,
+        y: 10
+      },
+      "+=.6"
     )
     .staggerFrom(
       ".idea-6 span",
