@@ -43,7 +43,7 @@ const animationTimeline = () => {
         opacity: 0,
         y: 10
       },
-      "+=.3"
+      "+=.5"
     )
     .from(".two", 0.7, {
       opacity: 0,
@@ -56,7 +56,7 @@ const animationTimeline = () => {
         opacity: 0,
         y: 10
       },
-      "+=.3"
+      "+=.5"
     )
     .from(".three", 0.7, {
       opacity: 0,
@@ -70,7 +70,7 @@ const animationTimeline = () => {
         opacity: 0,
         y: 10
       },
-      "+=.3"
+      "+=.5"
     )
     .from(".three1", 0.7, {
       opacity: 0,
@@ -84,7 +84,7 @@ const animationTimeline = () => {
         opacity: 0,
         y: 10
       },
-      "+=.3"
+      "+=.5"
     )
     .from(".four", 0.7, {
       scale: 0.2,
@@ -172,7 +172,7 @@ const animationTimeline = () => {
         opacity: 0,
         y: 10
       },
-      "+=.3"
+      "+=1"
     )
     .from(".b", 0.7, {
       opacity: 0,
@@ -186,7 +186,7 @@ const animationTimeline = () => {
         opacity: 0,
         y: 10
       },
-      "+=.3"
+      "+=1"
     )
     .from(".c", 0.7, {
       opacity: 0,
@@ -200,7 +200,7 @@ const animationTimeline = () => {
         opacity: 0,
         y: 10
       },
-      "+=.3"
+      "+=1"
     )
     .from(".d", 0.7, {
       opacity: 0,
@@ -214,7 +214,7 @@ const animationTimeline = () => {
         opacity: 0,
         y: 10
       },
-      "+=.3"
+      "+=1"
     )
     .from(".e", 0.7, {
       opacity: 0,
@@ -228,7 +228,7 @@ const animationTimeline = () => {
         opacity: 0,
         y: 10
       },
-      "+=.3"
+      "+=1"
     )
     .from(".f", 0.7, {
       opacity: 0,
@@ -242,7 +242,7 @@ const animationTimeline = () => {
         opacity: 0,
         y: 10
       },
-      "+=.3"
+      "+=1"
     )
     .from(".g", 0.7, {
       opacity: 0,
@@ -256,7 +256,7 @@ const animationTimeline = () => {
         opacity: 0,
         y: 10
       },
-      "+=.3"
+      "+=1"
     )
     .from(".h", 0.7, {
       opacity: 0,
@@ -270,7 +270,7 @@ const animationTimeline = () => {
         opacity: 0,
         y: 10
       },
-      "+=.3"
+      "+=1"
     )
     .from(".i", 0.7, {
       opacity: 0,
@@ -284,7 +284,7 @@ const animationTimeline = () => {
         opacity: 0,
         y: 10
       },
-      "+=.3"
+      "+=1"
     )
     .from(".j", 0.7, {
       opacity: 0,
@@ -298,7 +298,7 @@ const animationTimeline = () => {
         opacity: 0,
         y: 10
       },
-      "+=.3"
+      "+=1"
     )
     .from(".k", 0.7, {
       opacity: 0,
@@ -312,7 +312,7 @@ const animationTimeline = () => {
         opacity: 0,
         y: 10
       },
-      "+=.3"
+      "+=1"
     )
     .from(".l", 0.7, {
       opacity: 0,
@@ -326,7 +326,7 @@ const animationTimeline = () => {
         opacity: 0,
         y: 10
       },
-      "+=.3"
+      "+=1"
     )
     .from(".m", 0.7, {
       opacity: 0,
@@ -340,7 +340,7 @@ const animationTimeline = () => {
         opacity: 0,
         y: 10
       },
-      "+=.3"
+      "+=1"
     )
     .from(".n", 0.7, {
       opacity: 0,
@@ -354,7 +354,7 @@ const animationTimeline = () => {
         opacity: 0,
         y: 10
       },
-      "+=.3"
+      "+=1"
     )
     .from(".o", 0.7, {
       opacity: 0,
@@ -368,7 +368,7 @@ const animationTimeline = () => {
         opacity: 0,
         y: 10
       },
-      "+=.3"
+      "+=3"
     )
     .from(".p", 0.7, {
       opacity: 0,
@@ -382,7 +382,7 @@ const animationTimeline = () => {
         opacity: 0,
         y: 10
       },
-      "+=.3"
+      "+=2"
     )
     .from(".q", 0.7, {
       opacity: 0,
@@ -396,7 +396,7 @@ const animationTimeline = () => {
         opacity: 0,
         y: 10
       },
-      "+=.3"
+      "+=3"
     )
     .from(".r", 0.7, {
       opacity: 0,
@@ -410,7 +410,7 @@ const animationTimeline = () => {
         opacity: 0,
         y: 10
       },
-      "+=.3"
+      "+=3"
     )
     .from(".s", 0.7, {
       opacity: 0,
@@ -424,7 +424,7 @@ const animationTimeline = () => {
         opacity: 0,
         y: 10
       },
-      "+=.3"
+      "+=2"
     )
     .from(".t", 0.7, {
       opacity: 0,
@@ -438,7 +438,7 @@ const animationTimeline = () => {
         opacity: 0,
         y: 10
       },
-      "+=.3"
+      "+=3"
     )
     .from(".u", 0.7, {
       opacity: 0,
@@ -452,7 +452,7 @@ const animationTimeline = () => {
         opacity: 0,
         y: 10
       },
-      "+=.3"
+      "+=2"
     )
     .from(".v", 0.7, {
       opacity: 0,
@@ -466,7 +466,7 @@ const animationTimeline = () => {
         opacity: 0,
         y: 10
       },
-      "+=.3"
+      "+=4"
     )
     .from(".w", 0.7, {
       opacity: 0,
@@ -480,7 +480,7 @@ const animationTimeline = () => {
         opacity: 0,
         y: 10
       },
-      "+=.3"
+      "+=3"
     )
     .from(".x", 0.7, {
       opacity: 0,
@@ -494,7 +494,7 @@ const animationTimeline = () => {
         opacity: 0,
         y: 10
       },
-      "+=.3"
+      "+=2"
     )
     .from(".y", 0.7, {
       opacity: 0,
@@ -508,7 +508,7 @@ const animationTimeline = () => {
         opacity: 0,
         y: 10
       },
-      "+=.3"
+      "+=3"
     )
     .from(".z", 0.7, {
       opacity: 0,
@@ -522,7 +522,7 @@ const animationTimeline = () => {
         opacity: 0,
         y: 10
       },
-      "+=.3"
+      "+=2"
     )
     .from(".a1", 0.7, {
       opacity: 0,
@@ -536,7 +536,7 @@ const animationTimeline = () => {
         opacity: 0,
         y: 10
       },
-      "+=.3"
+      "+=3"
     )
     .from(".b1", 0.7, {
       opacity: 0,
@@ -550,7 +550,7 @@ const animationTimeline = () => {
         opacity: 0,
         y: 10
       },
-      "+=.3"
+      "+=1"
     )
     .from(".c1", 0.7, {
       opacity: 0,
@@ -564,7 +564,7 @@ const animationTimeline = () => {
         opacity: 0,
         y: 10
       },
-      "+=.3"
+      "+=1"
     )
     .from(".d1", 0.7, {
       opacity: 0,
@@ -578,7 +578,7 @@ const animationTimeline = () => {
         opacity: 0,
         y: 10
       },
-      "+=.3"
+      "+=1"
     )
     .from(".e1", 0.7, {
       opacity: 0,
@@ -592,7 +592,7 @@ const animationTimeline = () => {
         opacity: 0,
         y: 10
       },
-      "+=.3"
+      "+=1"
     )
     .from(".f1", 0.7, {
       opacity: 0,
@@ -606,7 +606,7 @@ const animationTimeline = () => {
         opacity: 0,
         y: 10
       },
-      "+=.3"
+      "+=1"
     )
     .from(".g1", 0.7, {
       opacity: 0,
@@ -620,7 +620,7 @@ const animationTimeline = () => {
         opacity: 0,
         y: 10
       },
-      "+=.3"
+      "+=1"
     )
     .from(".h1", 0.7, {
       opacity: 0,
@@ -634,7 +634,7 @@ const animationTimeline = () => {
         opacity: 0,
         y: 10
       },
-      "+=.3"
+      "+=1"
     )
     .from(".i1", 0.7, {
       opacity: 0,
@@ -648,7 +648,7 @@ const animationTimeline = () => {
         opacity: 0,
         y: 10
       },
-      "+=.3"
+      "+=1"
     )
     .from(".j1", 0.7, {
       opacity: 0,
@@ -662,7 +662,7 @@ const animationTimeline = () => {
         opacity: 0,
         y: 10
       },
-      "+=.3"
+      "+=1"
     )
     .from(".k1", 0.7, {
       opacity: 0,
@@ -676,7 +676,7 @@ const animationTimeline = () => {
         opacity: 0,
         y: 10
       },
-      "+=.3"
+      "+=1"
     )
     .from(".l1", 0.7, {
       opacity: 0,
@@ -690,113 +690,16 @@ const animationTimeline = () => {
         opacity: 0,
         y: 10
       },
-      "+=.3"
+      "+=1"
     )
-    .from(".m1", 0.7, {
-      opacity: 0,
-      y: 10
-      // scale: 0.7
-    })
-    .to(
-      ".m1",
-      0.7,
-      {
-        opacity: 0,
-        y: 10
-      },
-      "+=.3"
-    )
-    .from(".n1", 0.7, {
-      opacity: 0,
-      y: 10
-      // scale: 0.7
-    })
-    .to(
-      ".n1",
-      0.7,
-      {
-        opacity: 0,
-        y: 10
-      },
-      "+=.3"
-    )
-    .from(".o1", 0.7, {
-      opacity: 0,
-      y: 10
-      // scale: 0.7
-    })
-    .to(
-      ".o1",
-      0.7,
-      {
-        opacity: 0,
-        y: 10
-      },
-      "+=.3"
-    )
-    .from(".p1", 0.7, {
-      opacity: 0,
-      y: 10
-      // scale: 0.7
-    })
-    .to(
-      ".p1",
-      0.7,
-      {
-        opacity: 0,
-        y: 10
-      },
-      "+=.3"
-    )
-    .from(".q1", 0.7, {
-      opacity: 0,
-      y: 10
-      // scale: 0.7
-    })
-    .to(
-      ".q1",
-      0.7,
-      {
-        opacity: 0,
-        y: 10
-      },
-      "+=.3"
-    )
-    .from(".r1", 0.7, {
-      opacity: 0,
-      y: 10
-      // scale: 0.7
-    })
-    .to(
-      ".r1",
-      0.7,
-      {
-        opacity: 0,
-        y: 10
-      },
-      "+=.3"
-    )
-    .from(".s1", 0.7, {
-      opacity: 0,
-      y: 10
-      // scale: 0.7
-    })
-    .to(
-      ".s1",
-      0.7,
-      {
-        opacity: 0,
-        y: 10
-      },
-      "+=.3"
-    )
+    
     .staggerFrom(
       ".idea-6 span",
       0.8,
       {
-        scale: 3,
+        scale: 1,
         opacity: 0,
-        rotation: 15,
+        rotation: 1,
         ease: Expo.easeOut
       },
       0.2
@@ -805,9 +708,9 @@ const animationTimeline = () => {
       ".idea-6 span",
       0.8,
       {
-        scale: 3,
+        scale: 1,
         opacity: 0,
-        rotation: -15,
+        rotation: -1,
         ease: Expo.easeOut
       },
       0.2,
